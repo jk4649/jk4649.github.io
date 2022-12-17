@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+<meta charset="utf-8">
+
+
+<!-- Load d3.js -->
+<script type="text/javascript" src="d3.js"></script>
+
+
+<style type="text/css">
+            
+        @import url('https://fonts.googleapis.com/css?family=Quicksand');
+        @import url('https://fonts.googleapis.com/css?family=Inter');
+        @import url('https://fonts.googleapis.com/css?family=Lora');
+        @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+        @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+html {
+  scroll-behavior: smooth;
+}
+        body {
+            background-image: url("Final_Project/PlanetsPng/background_copy.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            background-color: black;
+            color: white;
+            position: relative;
+            text-align: center;
+            margin: 20%;
+            align-content: center;
+           
+        }
+
+        .column {
+            width: 25%;
+            float: left;
+        }
+        .column img:hover {
+            width:80%;
+        }
+
+        .header {
+
+            font-family: 'Cormorant Garamond';
+            margin-top: 20%;
+
+        }
+
+        h1 {                
+            font-size: 9ex;
+            margin-top: 80px;
+            margin-bottom: 10px;
+            letter-spacing: .3em;
+        }
+        h2 {
+            font-size: 25px;
+        }
+
+        .spacejunk {
+               font-size: 2ex;
+            margin-top: 42%;
+            margin-bottom:5%;
+        }
+
+        #nav {
+                margin-bottom:70px;
+        }
+    
+        #nav a.active {
+            color:white;
+        }
+    
+    
+        ul {
+            list-style-type: none;
+            margin: 15px;
+            padding: 0;
+            float:center;
+            }
+    
+        li {           
+            display: inline;
+        }
+    
+        li a {
+            text-decoration: none;
+            margin-left:30px;
+            margin-right:30px;
+            color:grey;
+            font-size: 3ex;
+            }
+    
+        li a:hover {
+            color:white;
+        }
+    
+        #content {
+            margin-top:300px;
+            margin-left:5%;
+            margin-right:5%;
+            height:400px;
+            overflow: hidden;
+        }
+
+        img {
+            width: 60%;
+        }
+
+       
+
+        #planets {
+            margin-top:200px;
+            margin-left:15%;
+            margin-right:15%;
+            float:center;
+            
+        }
+
+
+    .eachplanet figure0 img {
+        width:8%;
+        float:left;
+    }
+    .eachplanet figure1 img {
+        width:10%;
+        float:left;
+    }
+    
+    .eachplanet figure2 img {
+        width:10%;
+        float:left;
+    }
+    
+    .eachplanet figure3 img {
+        width:10%;
+        float:left;
+    }
+    .eachplanet figure4 img {
+        width:20%;
+        float:left;
+    }
+    .eachplanet figure5 img {
+        width:20%;
+        float:left;
+    }
+    
+    .eachplanet figure6 img {
+        width:10%;
+        float:left;
+    }
+    
+    .eachplanet figure7 img {
+        width:10%;
+        float:left;
+    }
+        .eachplanet img {
+            filter:grayscale(1);
+            width:80%;
+        }
+
+        .eachplanet img:hover {
+            filter:grayscale(0);
+        }
+    #placeholder {
+
+        height: 400px;
+    }
+    
+    
+    #solarsystem p1{
+        font-size:40px;
+        margin-top:10px;
+
+    }
+    
+    #solarsystem p {
+        width:80%;
+        font-size:20px;
+        text-align:justify;
+        margin:auto;
+        margin-top:40px;
+    }
+
+    
+    p2 {
+        margin-left:15%;
+        font-size: 200px;
+        float:left;
+    }
+    
+    p3 {
+        margin-top:100px;
+        font-size:20px;
+        float:left;
+        text-align: left;
+    }
+    
+    #length {
+        margin-top:300px;
+        width:100%;
+        text-align: left;
+        margin-left:18%;
+        color:white;
+        font-size:25px;
+        
+      
+       
+    }
+video {
+    margin-top:10%;
+    margin-bottom:5%;
+    }
+
+            
+		</style>
+	</head>
+	<body>	
+        
+        <div class="header">
+            <h1>SPACE ANTHROPOCENE 2.0</h1>
+            <h2>Historical and Cultural Survey of the Human Activities in Earth's Orbit and Beyond Through the Lens of Data Visualization</h2>
+        </div>
+        
+        <div class="spacejunk">
+            <p1>We have launched an abundance of rockets and thousands more satellites into orbit since the 1950s, when the space era first began. Since the launch of Sputnik, the first artificial satellite to orbit Earth, by the U.S.S.R. on October 4, 1957, humans have been exploring the space. This took place during the Cold War, a time when the Soviet Union and the United States were at odds politically. There are still plenty, and as we launch more, the probability of collision grows. Thousands of defunct satellites as well as fragments from all the rockets we've ever fired are in orbit around our planet. Any human-made item in orbit around the Earth that is no longer usable is known as orbital trash. Non-operational spacecraft, abandoned launch vehicle stages, mission-related junk, and fragmentation debris are examples of this debris. Fortunately, space trash doesn't currently represent a serious threat to our explorations. Its greatest threat is to other satellites that are in orbit.<br><br>To avoid being hit, damaged, or destroyed by all this approaching space junk, these satellites must maneuver out of the path. Every year, hundreds of collision avoidance maneuvers are carried out across all satellites. If there is too much space debris in orbit, the Earth's orbit may become unstable due to a chain reaction whereby more and more objects hit and produce fresh space debris. This condition is known as the Kessler Syndrome. Although this scenario would be severe, some experts are concerned that a variation of it might become an issue in the future. In addition to the debris we've left in Earth's orbit, there are other items on the lunar surface and other planets. Space Anthropocene 2.0 has displayed the objects and detritus left in space to investigate these explorations and see how it has altered over time. Data from NASA and the UN were used to collect and evaluate events between 1957 and 2022.
+</p1>
+            <figure>
+                <!--<img src="Final_Project/PlanetsPng/space_debris.jpg">-->
+            </figure>
+        </div>
+        
+                
+        <div class="orbit">
+            <figure>
+                <!-- <img src ="Final_Project/PlanetsPng/OrbitPerspective.jpg"> -->
+            </figure>
+        
+        </div>
+
+        
+
+        
+        <div id = "nav">
+            <hr size="1" width="100%" color="white"> 
+        <ul>
+            
+            <li><a class="active" href="Solar_System.html#nav">The Solar System</a></li>
+            <li><a href="index.html#nav"> Space Objects </a></li>
+            <li><a href="Planetary_Exploration.html#nav">Space Exploration</a></li>
+            <li><a href="Future.html#nav">Future</a></li>
+            
+        </ul>
+          <hr size="1" width="100%" color="white">   
+        </div>
+        
+        
+<div id="solarsystem">
+        <p1>Our Solar System</p1>
+        <p>Our solar system is situated in the Milky Way galaxy's outer spiral arm. The Sun, our star, and everything gravitationally connected to it, including the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune, dwarf planets like Pluto, dozens of moons, and millions of asteroids, comets, and meteoroids, make up our solar system. We have found thousands of planetary systems orbiting other stars in the Milky Way in addition to our own solar system.
+</p>
+    
+    <video loop width="80%"  autoplay muted>
+        <source src="Orbit.mp4" type="video/mp4">
+            
+        
+</video>
+          
+    
+    <p2> 1 AU</p2>
+    <p3> = One Astronomical Unit <br>= average distance between the Sun and Earth <br>= 149,597,870.7 km = 93,000,000 mi</p3>
+    
+    <div id = "length">
+        
+        Mercury 0.39 AU
+    <hr size="6" color="white" style="size;width:0.78%;text-align:left;margin-left:0%">
+        <br>
+        Venus 0.72 AU
+    <hr size="6" color="white" style="width:1.44%;text-align:left;margin-left:0%"> 
+        <br>
+        Earth 1.00 AU
+    <hr size="6" color="white" style="width:2.00%;text-align:left;margin-left:0%">
+        <br>
+        Mars 1.52 AU
+    <hr size="6" color="white" style="width:3.04%;text-align:left;margin-left:0%">
+        <br>
+        Jupiter 5.20 AU
+    <hr size="6" color="white" style="width:10.40%;text-align:left;margin-left:0%"> 
+        <br>
+        Saturn 9.58 AU
+    <hr size="6" color="white" style="width:19.16%;text-align:left;margin-left:0%">
+        <br>
+        Uranus 19.20 AU
+    <hr size="6" color="white" style="width:38.40%;text-align:left;margin-left:0%"> 
+        <br>
+        Neptune 25.05 AU
+    <hr size="6" color="white" style="width:50.10%;text-align:left;margin-left:0%"> 
+        <br>
+        Pluto 34.48 AU
+    <hr size="6" color="white" style="width:68.96%;text-align:left;margin-left:0%">
+        
+        </div>
+    
+    
+        
+        
+        </div>
+    
+        
+ 
+        <div id = "placeholder"></div>
+   
+    
+        
+        
+
+<script>
+    
+    
+    
+    
+
+    
+              
+		</script>
+        
+        
+        
+</body>
+
+</html>
+

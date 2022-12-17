@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+<meta charset="utf-8">
+
+
+<!-- Load d3.js -->
+<script type="text/javascript" src="d3.js"></script>
+
+
+<style type="text/css">
+            
+        @import url('https://fonts.googleapis.com/css?family=Quicksand');
+        @import url('https://fonts.googleapis.com/css?family=Inter');
+        @import url('https://fonts.googleapis.com/css?family=Lora');
+        @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+        @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+html {
+  scroll-behavior: smooth;
+}
+        body {
+            background-image: url("Final_Project/PlanetsPng/background_copy.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            background-color: black;
+            color: white;
+            position: relative;
+            text-align: center;
+            margin: 20%;
+            align-content: center;
+        }
+
+        .column {
+            width: 25%;
+            float: left;
+        }
+        .column img:hover {
+            width:80%;
+        }
+
+        .header {
+
+            font-family: 'Cormorant Garamond';
+            margin-top: 20%;
+
+        }
+
+        h1 {                
+            font-size: 9ex;
+            margin-top: 80px;
+            margin-bottom: 10px;
+            letter-spacing: .3em;
+        }
+        h2 {
+            font-size: 25px;
+        }
+
+        .spacejunk {
+            font-size: 2ex;
+            margin-top: 42%;
+            margin-bottom:5%;
+        }
+
+        .nav {
+            margin-bottom:70px;
+        }
+    
+        #nav a.active {
+                    color:white;
+                }
+    
+        ul {
+            list-style-type: none;
+            margin: 15px;
+            padding: 0;
+            float:center;
+            
+            }
+    
+        li {
+            
+           
+            display: inline;
+        }
+    
+        li a {
+            text-decoration: none;
+  
+            margin-left:30px;
+            margin-right:30px;
+            color:grey;
+            font-size: 3ex;
+            }
+    
+        li a:hover {
+            color:white;
+        }
+
+        #content {
+            margin-top:300px;
+            margin-left:5%;
+            margin-right:5%;
+            height:400px;
+            overflow: hidden;
+        }
+
+
+
+        #mars {
+            margin-top:100px;
+            font-size:20px;
+ 
+        }
+    
+        #chart {
+            margin-top:50px;
+        }
+
+        #astronauts {
+            margin-top:5px;
+            width:400px;
+            float:left;
+        }
+
+
+
+    #astronauts-explanation {
+        float:left;
+        width:400px;
+        margin-left:50px;
+        margin-top:150px;
+        text-align:end;
+    }
+    
+    #astronauts-explanation p {
+        text-align:justify;
+    }
+    
+    #astronauts-explanation p1 {
+        font-size:25px;
+    }
+    
+    #rover-explanation {
+        width:400px;
+        text-align:end;
+        margin-left:50px;
+        float:left;
+    }
+    
+    #rover-explanation p{
+
+        text-align:justify;
+    }
+    
+    
+    
+    #rover-explanation p1 {
+        font-size:25px;
+    }
+    
+    #roverpic img{
+        margin-top:20px;
+        margin-left:100px;
+        float:left;
+        width:40%;
+        text-align: end;
+    }
+    #placeholder {
+
+        height: 900px;
+    }
+
+            
+		</style>
+	</head>
+	<body>	
+        
+        <div class="header">
+            <h1>SPACE ANTHROPOCENE 2.0</h1>
+            <h2>Historical and Cultural Survey of the Human Activities in Earth's Orbit and Beyond Through the Lens of Data Visualization</h2>
+        </div>
+        
+        <div class="spacejunk">
+            <p1>We have launched an abundance of rockets and thousands more satellites into orbit since the 1950s, when the space era first began. Since the launch of Sputnik, the first artificial satellite to orbit Earth, by the U.S.S.R. on October 4, 1957, humans have been exploring the space. This took place during the Cold War, a time when the Soviet Union and the United States were at odds politically. There are still plenty, and as we launch more, the probability of collision grows. Thousands of defunct satellites as well as fragments from all the rockets we've ever fired are in orbit around our planet. Any human-made item in orbit around the Earth that is no longer usable is known as orbital trash. Non-operational spacecraft, abandoned launch vehicle stages, mission-related junk, and fragmentation debris are examples of this debris. Fortunately, space trash doesn't currently represent a serious threat to our explorations. Its greatest threat is to other satellites that are in orbit.<br><br>To avoid being hit, damaged, or destroyed by all this approaching space junk, these satellites must maneuver out of the path. Every year, hundreds of collision avoidance maneuvers are carried out across all satellites. If there is too much space debris in orbit, the Earth's orbit may become unstable due to a chain reaction whereby more and more objects hit and produce fresh space debris. This condition is known as the Kessler Syndrome. Although this scenario would be severe, some experts are concerned that a variation of it might become an issue in the future. In addition to the debris we've left in Earth's orbit, there are other items on the lunar surface and other planets. Space Anthropocene 2.0 has displayed the objects and detritus left in space to investigate these explorations and see how it has altered over time. Data from NASA and the UN were used to collect and evaluate events between 1957 and 2022.
+</p1>
+           
+        </div>
+        
+       
+
+        
+
+        
+        <div id = "nav">
+            <hr size="1" width="100%" color="white"> 
+        <ul>
+            
+            <li><a href="Solar_System.html#nav">The Solar System</a></li>
+            <li><a href="index.html#nav"> Space Objects </a></li>
+            <li><a class = "active" href="Planetary_Exploration.html#nav">Space Exploration</a></li>
+            <li><a href="Future.html#nav">Future</a></li>
+            
+        </ul>
+          <hr size="1" width="100%" color="white">   
+        </div>
+        
+        
+        <div id="astronauts-explanation">
+        <p1>Human Travels</p1><br>
+        <p>
+       An astronaut is a person who has been prepared, equipped and sent into space as part of a human spaceflight program to serve as a commander or crew member. The term occasionally refers to anyone who journeys into space, while being generally reserved for professional space travelers. More than 500 astronauts have traveled to other planets. Until 2002, governments were the only sources of funding and training for astronauts. A new type of astronaut was formed with the suborbital flight of the privately sponsored spaceships: the commercial astronaut. Here is a dataset of astronauts that have traveled since 1961.
+</p>
+        
+        
+        </div>
+        <div id="astronauts"></div>
+        <div id="rover-explanation">
+        <p1>Rovers and Probes</p1><br><p>
+        While we haven't yet sent any humans to the other planets, we have deployed several rovers and probes to roam the planets or orbit around them to conduct research in our place. A rover can move around the icy, untamed terrain of Mars while collecting pictures and carrying out tests, and a space probe could circle the orbits of Jupiter or Saturn and take high quality pictures of their rings for us to look at them from our couch in New Jersey. These rovers are more often than not produced as a global effort between numerous organizations such as NASA, ESA, JAXA and Roscosmos. There are various objectives for these spacecrafts. For instance: the Mars rovers have been used to evaluate the likelihood that prehistoric environments on Mars could have supported life, particularly by looking for evidence of liquid water in the past. These rovers have developed through time and are now equipped with various cutting-edge tools to study Mars. Some others aim to travel outside the solar system, carrying the traces of human culture and history into the unknown, hoping for a day they come into contact with another civilization far far away in another galaxy. <br>Image source: Reuters.com</p>
+</div>
+        <div id="roverpic">
+            
+            <img src="Final_Project/PlanetsPng/rover-graphic.jpg" width="600">
+        </div>
+        
+        <div id="chart"></div>
+        <div id = "placeholder"></div>
+    <div id="mars">
+        Discover the frequencies at which each planet has been visited by man-made objects in the past, or will be visited in the future. Data Source: Wikipedia.com<br> <br></div>
+        
+   
+    
+        
+        
+
+<script>
+    
+    
+    var totalRovers = 0;
+    
+    
+    legend()
+    function legend() {
+        var w = 1200;
+        var h = 100;
+        var padding = 40;
+        
+        var svg2 = d3.select("#mars")
+                        .append("svg")
+                        .attr("width", w)
+                        .attr("height", h);
+        
+        svg2.append("circle")
+                .attr("cx", 300)
+                .attr("cy", 10)
+                .attr("r", 8)
+                .attr("fill","#AFCE36");
+        
+        svg2.append("circle")
+                .attr("cx", 500)
+                .attr("cy", 10)
+                .attr("r", 8)
+                .attr("fill","#4DBE9A")
+        
+        svg2.append("circle")
+                .attr("cx", 760)
+                .attr("cy", 10)
+                .attr("r", 8)
+                .attr("fill","#D4206C")
+        
+        
+        svg2.append("circle")
+                .attr("cx", 900)
+                .attr("cy", 10)
+                .attr("r", 8)
+                .attr("fill","#AB47DE")
+        
+        
+        svg2.append("text")
+                .attr("x", 320)
+                .attr("y", 10)
+                .attr("font-size", 20)
+                .attr("fill", "white")
+                .attr("alignment-baseline", "central")
+                .text("SUCCESS");
+                
+        
+        svg2.append("text")
+                .attr("x", 520)
+                .attr("y", 10)
+                .attr("font-size", 20)
+                .attr("fill", "white")
+                .attr("alignment-baseline", "central")
+                .text("STILL OPERATING");
+        
+        svg2.append("text")
+                .attr("x", 780)
+                .attr("y", 10)
+                .attr("font-size", 20)
+                .attr("fill", "white")
+                .attr("alignment-baseline", "central")
+                .text("FAILED");
+        
+          svg2.append("text")
+                .attr("x", 920)
+                .attr("y", 10)
+                .attr("font-size", 20)
+                .attr("fill", "white")
+                .attr("alignment-baseline", "central")
+                .text("PROPOSED");
+        
+        
+}
+    
+    
+    planetChart("Lunar.csv", "LUNAR");
+    planetChart("Mercury.csv", "MERCURY")
+    planetChart("Venus_data.csv", "VENUS");
+    planetChart("Mars_Data.csv","MARS");
+    planetChart("Saturn.csv","SATURN");
+    planetChart("Jupiter.csv", "JUPITER")
+    planetChart("Uranus.csv", "URANUS");
+    planetChart("Neptune.csv", "NEPTUNE");
+    planetChart("Pluto.csv", "PLUTO");
+    
+    
+function planetChart(chart,planet) {
+    
+            var w = 1200;
+			var h = 350;
+			var padding = 40; //changed the padding from 40 to 50 so that y axis numbers show
+            
+            var parseTime = d3.timeParse("%m/%d/%Y");
+            var formatTime = d3.timeFormat("%Y");
+                
+            var rowConverter = function(d) {
+				return {
+					Date: parseTime(d.Date),
+                    Operator: d.Operator,
+                    Carrier_rocket: d["Carrier_rocket"],
+                    Mission_Type: d["Mission_Type"],
+                    Mission: d.Mission,
+                    Spacecraft: d.Spacecraft,
+                    Outcome: d.Outcome,
+                    Remarks: d.Remarks
+			     };
+            }
+			
+			//Load in the data
+			d3.csv(chart, rowConverter)
+            .then(function(data) {
+                dataset = data;
+                xScale = d3.scaleTime()
+							   .domain([
+									d3.min(dataset, function(d) { return d.Date; }),
+									d3.max(dataset, function(d) { return d.Date; })
+								])
+							   .range([padding, w - padding - 50]);
+                
+                xAxis = d3.axisBottom()
+								.scale(xScale)
+								.ticks(d3.timeYear.every(1))
+                                .tickFormat(formatTime);
+
+                
+                 var yNASA = 100;
+                 var ySoviet = 140;
+                 var yESA = 180;
+                 var yCNSA = 220;
+                 var yOther = 260;
+                
+                var yPosition = [100, 140, 180, 220, 260];
+                var org = ["NASA", "USSR/Russia", "ESA", "CNSA", "Other"]
+                 
+                
+                var svg2 = d3.select("#mars")
+                        .append("svg")
+                        .attr("width", w)
+                        .attr("height", h);
+                
+                 svg2.append("text")
+                        .attr("x", 0)
+                        .attr("y", 42)
+                        .attr("font-size", 50)
+                        .attr("fill", "white")
+                        .text(planet);
+                
+                
+                for (i = 0; i < yPosition.length; i++) {
+                       svg2.append("line")
+                       .attr("x1", 0)
+                       .attr("x2", w)
+                       .attr("y1", yPosition[i])
+                       .attr("y2", yPosition[i])
+                       .attr("stroke", "white")
+                       .attr("stroke-width", 1);
+                    
+                        svg2.append("text")
+                        .attr("x", 5)
+                        .attr("y", yPosition[i]-5)
+                        .attr("font-size", 14)
+                        .attr("fill", "white")
+                        .attr("alignment-baseline", "central")
+                        .text(org[i]);
+                        
+                }
+                  
+                svg2.selectAll("circle")
+                    .data(dataset)
+                    .enter()
+                    .append("circle")
+                    .attr("cx", function(d, i) {
+                        return i*((w-200)/data.length)+100
+                        //return xScale(d.Date);
+                    })
+                    .attr("cy", function(d, i) {
+                    
+                        var country = d.Operator
+                       
+                        
+                         if (country.includes ("NASA") == true) {
+                            return yNASA;
+                        } else if (country.includes ("Soviet") == true || country.includes ("Russia") == true || country.includes ("USSR") == true) {
+                            return ySoviet;
+                        } else if (country.includes ("ESA") == true) {
+                            return yESA;
+                        } else if (country.includes ("CNSA") == true) {
+                            return yCNSA;
+                        } else {
+                            return yOther;
+                        }
+                    })
+                  
+                    .attr("r", function(d) {
+                        return 8;
+                    })
+
+                    .attr("fill", function(d) {
+                        var outcome = d.Outcome
+                        
+                        if (outcome.includes ("uccess") == true) {
+                            return "#AFCE36";
+                        } else if (outcome.includes ("Operational") == true || outcome.includes ("active") == true || outcome.includes ("in orbit") == true) {
+                            return "#4DBE9A";
+                        } else if (outcome.includes ("ail") == true) {
+                            return "#D4206C";
+                        } else {
+                            return "#AB47DE"
+                            
+                        }})
+                
+                    .on("mouseover", function(d,i) {
+                    d3.select(this).attr("stroke","white").attr("stroke-width", 2);
+
+					//Get this bar's x/y values, then augment for the tooltip
+					var xPosition = parseFloat(d3.select(this).attr("cx"));
+					var yPosition = parseFloat(d3.select(this).attr("cy")) - 20;
+
+					//Create the tooltip label
+					svg2.append("text")
+					   .attr("id", "tooltip")
+					   .attr("x", xPosition)
+					   .attr("y", yPosition)
+					   .attr("text-anchor", "middle")
+					   .attr("font-family", "sans-serif")
+					   .attr("font-size", "15px")
+					   .attr("font-weight", "bold")
+					   .attr("fill", "white")
+					   .text(d.Mission + " (" + formatTime(d.Date) + ")" + " by " + d.Operator)
+
+			   })
+			   .on("mouseout", function() {
+                    d3.select(this).attr("stroke","none")
+					d3.select("#tooltip").remove();
+					
+                   
+			   })
+
+
+			});
+		}
+    
+   
+    
+    
+   AstronautsYear();
+    function AstronautsYear() {
+    
+        var w = 750;
+        var h = 500;
+        var padding = 100;
+
+         var rowConverter = function(d) {
+				return {
+                    mission: d.Mission,
+                    country: d.country,
+                    //dates: Math.floor(parseInt(d.dates.split(",")[2])/10)*10,
+                    dates: d.dates,
+                    //Year:d.Year,
+					Year: Math.floor(parseInt(d.Year)/10)*10,
+                    notes: d.notes
+			     };
+            }
+         
+         
+        var svg8 = d3.select("#astronauts")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h);
+            
+        
+        //Load in the data
+        d3.csv("Manned_Mission.csv", rowConverter)
+        .then(function(data) {
+            dataset = data;            
+            var nested_data = d3.nest()
+            .key(function(d) { return d.Year })
+            .rollup(function(leaves) { return leaves.length; })
+            .entries(data);            
+            console.log(nested_data);
+
+          
+            var xScale = d3.scaleBand()
+                .domain(nested_data.map(function(d) { return d.key;}))
+                .range([padding,w-padding])
+                .paddingInner(0.1)
+                .paddingOuter(0.1);
+            
+            
+            var yScale = d3.scaleLinear()
+                .domain([
+                    0,
+                    d3.max(nested_data, function(d) {return d.value})
+                ])
+                .range([h-padding,padding]);
+            
+            xAxis = d3.axisBottom()
+                .scale(xScale)
+                //.ticks(0.1);
+        
+            
+            yAxis = d3.axisLeft()
+                .scale(yScale)
+                .ticks(10);
+                
+           
+            svg8.selectAll("rect")
+                .data(nested_data)
+                .enter()
+                .append("rect")
+                .attr("x", function(d) {
+                    return xScale(d.key) })    
+            
+                .attr("y", function(d) {
+                    return yScale(d.value) })
+            
+                .attr("width", xScale.bandwidth())
+                .attr("height", function(d) {
+                return h-yScale(d.value)-padding})
+            
+                .attr("fill", "#B3F5FF");
+            
+            svg8.append("g")
+                .attr("class", "axis")
+                .attr("transform", "translate(0," + (h - padding) + ")")
+                .call(xAxis)
+                
+            .selectAll("text")
+     
+                
+                .attr("text-anchor", "middle")
+                .attr("font-size", 10)
+                .attr("alignment-baselinet", "central");
+            
+            
+            svg8.append("g")
+                .attr("class", "axis")
+                .attr("transform", "translate(" + padding + ",0)")
+                .call(yAxis)
+            .selectAll("text")
+                .attr("font-size", 10);
+            
+            svg8.append("text")
+                  .attr("x",w-95)
+                  .attr("y", h-65)
+                  .attr("text-anchor", "end")
+                  .text("Data Source: https://aerospace.csis.org/data/international-astronaut-database/")
+                  .style("font-size", 10)
+                  .style("fill", "white");
+   
+            
+          
+        })
+    }
+       
+
+    function budget () {
+        const margin = {top: 100, right: 30, bottom: 30, left: 60},
+        width = 1000 - margin.left - margin.right,
+        height = 600 - margin.top - margin.bottom;
+    
+    // append the svg object to the body of the page
+    const svg = d3.select("#chart")
+      .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+        .attr("transform", `translate(${margin.left},${margin.top})`);
+
+
+    
+    //Read the data
+    d3.csv("Budget.csv")
+        .then(function(data) {
+        dataset = data;
+        
+        const x = d3.scaleLinear()
+          .domain([
+            d3.min(dataset, function(d) { return parseFloat (d.Date); }),
+			d3.max(dataset, function(d) { return parseFloat (d.Date); })
+        ])
+          .range([ 0, width ]);
+       
+    
+        // Add Y axis
+        const y = d3.scaleLinear()
+          .domain([
+            d3.min(dataset, function(d) { return parseFloat (d.Nominal)}),
+            d3.max(dataset, function(d) { return parseFloat (d.Inflation)})
+          ])
+          .range([ height, 0 ]);
+        
+      svg.selectAll("line")
+           .data(dataset)
+           .enter()
+           .append("line")
+           .attr("x1", function(d,i) {
+                return x(parseFloat(d.Date));
+           })
+            .attr("y1", height)
+           .attr("x2", function(d,i) {
+                return x(parseFloat(d.Date));
+           })
+           .attr("y2", function(d) {
+                return y(parseFloat(d.Inflation));
+           })
+           .attr("stroke", "gray")
+           .attr("stroke-width", 3)
+            .on("mouseover", function(d,i) {
+                d3.select(this).attr("stroke","white").attr("stroke-width", 4)
+            })
+            .on("mouseout", function(d,i) {
+                d3.select(this).attr("stroke","grey").attr("stroke-width", 3)
+                });
+        
+        
+        svg.selectAll("line")
+           .data(dataset)
+           .enter()
+           .append("line")
+           .attr("x1", function(d,i) {
+                return x(parseFloat(d.Date));
+           })
+            .attr("y1", height)
+           .attr("x2", function(d,i) {
+                return x(parseFloat(d.Date));
+           })
+           .attr("y2", function(d) {
+                return y(parseFloat(d.Inflation));
+           })
+           .attr("stroke", "white")
+           .attr("stroke-width", 3)
+       
+    
+        // Add the line
+        svg.append("path")
+          .datum(data)
+          .attr("fill", "none")
+          .attr("stroke", "white")
+          .attr("stroke-width", 3)
+          .attr("d", d3.line()
+            .x(function(d) { return x(d.Date) })
+            .y(function(d) { return y(d.Inflation) })
+            );
+        
+        svg.append("path")
+          .datum(data)
+          .attr("fill", "none")
+          .attr("stroke", "#4DBE9A")
+          .attr("stroke-width", 3)
+          .attr("d", d3.line()
+            .x(function(d) { return x(d.Date) })
+            .y(function(d) { return y(d.Nominal) })
+            );
+        
+         
+                
+
+        svg.selectAll("circle")
+            .data(dataset)
+            .enter()
+            .append("circle")
+            .attr("fill", "white")
+            .attr("cx", function (d,i) {
+                return x(parseFloat(d.Date));
+        })
+            .attr("cy", function (d,i) {
+                return y(parseFloat(d.Inflation));
+        })
+            .attr("r", 3.5);
+       
+
+    svg.append("g")
+        .call(d3.axisLeft(y)
+        .ticks(10))
+        .selectAll("text")
+        .attr("font-size", 15);
+        
+        
+     svg.append("g")
+        .attr("transform", `translate(0, ${height})`)
+        .call(d3.axisBottom(x)
+        .ticks(10))
+        .selectAll("text")
+        .attr("font-size", 15);
+        
+        
+        svg.append("text")
+            .attr("x", width/2)
+            .attr("y", -50)
+            .attr("text-anchor", "middle")
+            .text("NASA's Budget Over Time (Millions of US Dollars)")
+            .style("font-size", 25)
+         //   .style("font-family", "Verdana")
+            .style("fill", "white");
+    });
+
+
+    }
+
+    
+    
+    
+              
+		</script>
+        
+        
+        
+</body>
+
+</html>
+

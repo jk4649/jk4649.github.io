@@ -1,0 +1,191 @@
+Mission,Spacecraft,Date,Operator,Mission_Type,Outcome,Remarks,Carrier_rocket
+1M No.1,1M No.1,10/10/1960,"OKB-1
+ Soviet Union",Flyby,Launch failure,Failed to achieve Earth orbit,Molniya
+1M No.2,1M No.2,10/14/1960,"OKB-1
+ Soviet Union",Flyby,Launch failure,Failed to achieve Earth orbit,Molniya
+2MV-4 No.1,2MV-4 No.1,10/24/1962,Soviet Union,Flyby,Launch failure,"Booster stage (""Block L"") disintegrated in LEO",Molniya
+Mars 1,"Mars 1
+(2MV-4 No.2)",11/1/1962,Soviet Union,Flyby,Spacecraft failure,Communications lost before *first flyby*,Molniya
+2MV-3 No.1,2MV-3 No.1,11/4/1962,Soviet Union,Lander,Launch failure,Never left LEO,Molniya
+Mariner 3,Mariner 3,11/5/1964,"NASA
+ United States",Flyby,Launch failure,Payload fairing failed to separate,Atlas LV-3 Agena-D
+Mariner 4,Mariner 4,11/28/1964,"NASA
+ United States",Flyby,Successful,*First successful flyby* of Mars on 15 July 1965,Atlas LV-3 Agena-D
+Zond 2,"Zond 2
+(3MV-4A No.2)",11/30/1964,Soviet Union,Flyby,Spacecraft failure,Communications lost before flyby,Molniya
+Mariner 6,Mariner 6,2/25/1969,"NASA
+ United States",Flyby,Successful,,Atlas SLV-3C Centaur-D
+2M No.521,"2M No.521
+
+(1969A)[4]",3/27/1969,Soviet Union,Orbiter,Launch failure,Failed to achieve Earth orbit,Proton-K/D
+Mariner 7,Mariner 7,3/27/1969,"NASA
+ United States",Flyby,Successful,,Atlas SLV-3C Centaur-D
+2M No.522,"2M No.522
+
+(1969B)[4]",4/2/1969,Soviet Union,Orbiter,Launch failure,Failed to achieve Earth orbit,Proton-K/D
+Mariner 8,Mariner 8,5/9/1971,"NASA
+ United States",Orbiter,Launch failure,Failed to achieve Earth orbit,Atlas SLV-3C Centaur-D
+Kosmos 419,"Kosmos 419
+(3MS No.170)",5/10/1971,Soviet Union,Orbiter,Launch failure,Never left LEO; booster stage burn timer set incorrectly,Proton-K/D
+Mars 2,"Mars 2
+(4M No.171)",5/19/1971,Soviet Union,Orbiter,Successful,"On November 27 it became in short sequence the second spacecraft to orbit 
+another planet.[5] Operated for 362 orbits[6]",Proton-K/D
+Mars 3,"Mars 2 lander
+(SA 4M No.171)",5/20/1971,Soviet Union,Lander,Spacecraft failure,"*First lander to impact Mars.* Deployed from Mars 2, failed to land during 
+attempt on 27 November 1971.[7]",
+Mars 4,Prop-M,5/21/1971,Soviet Union,Rover,"Failure
+Lost with Mars 2","*First rover to impact Mars.* Lost when the Mars 2 lander crashed into the 
+surface of Mars.",
+Mars 3,"Mars 3
+(4M No.172)",5/28/1971,Soviet Union,Orbiter,Successful,"On December 2 it became in short sequence the third spacecraft to orbit 
+another planet.[5] Operated for 20 orbits[8][9]",Proton-K/D
+Mars 4,"Mars 3 lander
+(SA 4M No.172)",5/29/1971,Soviet Union,Lander,Partial success[10][11],"*First lander to make a soft landing on Mars.* Landed on 2 December 1971. 
+First partial image (70 lines) transmitted showing ""gray background with no 
+details"".[8] Contact lost 20 seconds after transmission started, 110 
+seconds after landing.[12][13]",
+Mars 5,Prop-M,5/30/1971,Soviet Union,Rover,Carrier vehicle failed before rover was deployed,"*First rover to make a soft landing on another planet.* 4.5 kg (9.9 lb) 
+rover connected to the Mars 3 lander by a tether. Deployment status unknown 
+due to loss of communications with the Mars 3 lander.[12]",
+Mariner 9,Mariner 9,5/30/1971,"NASA
+ United States",Orbiter,Successful[14],"*First spacecraft to orbit another planet*, two weeks ahead of Mars 2 on 
+November 14.[5] Deactivated 516 days after entering orbit.",Atlas SLV-3C Centaur-D
+Mars 4,"Mars 4
+(3MS No.52S)",7/21/1973,Soviet Union,Orbiter,Partial success[15],"Failed to perform orbital insertion burn. Returned photographs of Mars 
+during flyby.",Proton-K/D
+Mars 5,"Mars 5
+(3MS No.53S)",7/25/1973,Soviet Union,Orbiter,Successful,Contact lost after 9 days in Mars orbit. returned 180 frames,Proton-K/D
+Mars 6,"Mars 6
+(3MP No.50P)",8/5/1973,Soviet Union,Flyby,Successful,Flyby bus collected data.[16],Proton-K/D
+Mars 7,Mars 6 lander,8/6/1973,Soviet Union,Lander,Spacecraft failure,"Contact lost upon landing, atmospheric data mostly unusable.",
+Mars 7,"Mars 7
+(3MP No.51P)",8/9/1973,Soviet Union,Flyby,Successful,Flyby bus collected data.,Proton-K/D
+Mars 8,Mars 7 lander,8/10/1973,Soviet Union,Lander,Spacecraft failure,"Separated from coast stage prematurely, failed to enter Martian atmosphere.",
+*Viking 1*,*Viking 1* orbiter,8/20/1975,"NASA
+ United States",Orbiter,Successful,Operated for 1385 orbits. Entered Mars orbit on 19 June 1976.,Titan IIIE Centaur-D1T
+*Viking 1*,*Viking 1* lander,8/21/1975,"NASA
+ United States",Lander,Successful,"*First successful Mars lander.* Deployed from *Viking 1* orbiter. Landed on 
+Mars in 20 July 1976. Operated for 2245 sols.",
+*Viking 2*,*Viking 2* orbiter,9/9/1975,"NASA
+ United States",Orbiter,Successful,Operated for 700 orbits. Entered Mars orbit on 7 August 1976.,Titan IIIE Centaur-D1T
+*Viking 2*,*Viking 2* lander,9/10/1975,"NASA
+ United States",Lander,Successful,"Deployed from *Viking 2* orbiter. Landed on Mars on September 1976. 
+Operated for 1281 sols (11 April 1980).",
+Phobos 1,"Phobos 1
+(1F No.101)",7/7/1988,Soviet Union,Orbiter,Spacecraft failure,Communications lost before reaching Mars; failed to enter orbit,Proton-K/D-2
+Phobos 2,DAS,7/8/1988,Soviet Union,Phobos lander,"Failure
+Lost with Phobos 1",To have been deployed by Phobos 1,
+Phobos 2,"Phobos 2
+(1F No.102)",7/12/1988,Soviet Union,Orbiter,Mostly successful,"Orbital observations successful, communications lost before lander 
+deployment.",Proton-K/D-2
+Phobos 3,Prop-F,7/13/1988,Soviet Union,Phobos rover,"Failure
+Lost with Phobos 2",To have been deployed by Phobos 2,
+Phobos 4,DAS,7/14/1988,Soviet Union,Phobos lander,"Failure
+Lost with Phobos 2",To have been deployed by Phobos 2,
+*Mars Observer*,*Mars Observer*,9/25/1992,"NASA
+ United States",Orbiter,Spacecraft failure,Lost communications before orbital insertion,Commercial Titan III
+*Mars Global Surveyor*,*Mars Global Surveyor*,11/7/1996,"NASA
+ United States",Orbiter,Successful,Operated for ten years,Delta II 7925
+Mars 96,"Mars 96
+(M1 No.520) (Mars-8)[4]",11/16/1996,"Rosaviakosmos
+ Russia","Orbiter
+Penetrators",Spacecraft failure,Never left LEO,Proton-K/D-2
+Mars 97,Mars 96 lander,11/17/1996,"Rosaviakosmos
+ Russia",Lander,"Failure
+Lost with Mars 96",Two Mars landers to have been deployed by Mars 96.,
+Mars 98,Mars 96 penetrator,11/18/1996,"Rosaviakosmos
+ Russia",Penetrator,"Failure
+Lost with Mars 96",Two Mars Penetrators to have been deployed by Mars 96.,
+*Mars Pathfinder*,*Mars Pathfinder*,12/4/1996,"NASA
+ United States",Lander,Successful,"Landed at 19.13°N 33.22°W on 4 July 1997,[17] Last contact on 27 September 
+1997",Delta II 7925
+*Mars Pathfinder*,*Sojourner*,12/5/1996,"NASA
+ United States",Rover,Successful,*First rover to operate on another planet.* Operated for 84 days[18],
+*Nozomi*,"*Nozomi*
+(PLANET-B)",7/3/1998,"ISAS
+ Japan",Orbiter,Spacecraft failure,Performed a Mars flyby. Later contact lost due to loss of fuel.,M-V
+Mars Climate Orbiter,Mars Climate Orbiter,12/11/1998,"NASA
+ United States",Orbiter,Spacecraft failure,"Approached Mars too closely during orbit insertion attempt due to a software 
+interface bug involving different units for impulse and burned up in the 
+atmosphere",Delta II 7425
+Mars Polar Lander / Deep Space 2,Mars Polar Lander,1/3/1999,"NASA
+ United States",Lander,Spacecraft failure,Failed to function after landing,Delta II 7425
+Mars Polar Lander / Deep Space 3,Deep Space 2,1/4/1999,"NASA
+ United States",Penetrator,Spacecraft failure,No data transmitted after deployment from MPL.,
+Mars Polar Lander / Deep Space 4,Deep Space 2,1/5/1999,"NASA
+ United States",Penetrator,Spacecraft failure,,
+Mars Odyssey,Mars Odyssey,4/7/2001,"NASA
+ United States",Orbiter,Operational,Expected to remain operational until 2025.,Delta II 7925
+Mars Express,Mars Express,6/2/2003,ESA,Orbiter,Operational,Enough fuel to remain operational until 2035,Soyuz-FG / Fregat
+,Beagle 2,6/3/2003,"ESA
+
+ United Kingdom",Lander,Lander failure,"No communications received after release from Mars Express. Orbital images 
+of landing site suggest a successful landing, but two solar panels failed 
+to deploy, obstructing its communications.",
+*Spirit*,"*Spirit*
+(MER-A)",6/10/2003,"NASA
+ United States",Rover,Successful,"Landed on 4 January 2004.
+Operated for 2208 sols",Delta II 7925
+*Opportunity*,"*Opportunity*
+(MER-B)",7/8/2003,"NASA
+ United States",Rover,Successful,"Landed on 25 January 2004.
+Operated for 5351 sols",Delta II 7925H
+*Rosetta*,*Rosetta*,3/2/2004,ESA,"Flyby 
+
+(Gravity assist)",Successful,Flyby in February 2007 en route to 67P/Churyumov–Gerasimenko[19],Ariane 5G+
+,*Philae*,3/3/2004,,"Flyby 
+
+(Gravity assist)",Successful,,
+Mars Reconnaissance Orbiter,Mars Reconnaissance Orbiter,8/12/2005,"NASA
+ United States",Orbiter,Operational,Entered orbit on 10 March 2006,Atlas V 401
+*Phoenix*,*Phoenix*,8/4/2007,"NASA
+ United States",Lander,Successful,"Landed on 25 May 2008.
+End of mission 2 November 2008",Delta II 7925
+*Dawn*,*Dawn*,9/27/2007,"NASA
+ United States","Flyby 
+
+(Gravity assist)",Successful,Flyby in February 2009 en route to 4 Vesta and Ceres,Delta II 7925H
+Fobos-Grunt / Yinghuo-1,Fobos-Grunt,11/8/2011,"Roskosmos
+ Russia","Orbiter
+Phobos sample return",Spacecraft failure,Never left LEO (intended to depart under own power),Zenit-2M
+,Yinghuo-1,11/9/2011,"CNSA
+ China",Orbiter,"Failure
+Lost with Fobos-Grunt",To have been deployed by Fobos-Grunt,
+Mars Science Laboratory,"*Curiosity*
+(Mars Science Laboratory)",11/26/2011,"NASA
+ United States",Rover,Operational,Landed on 6 August 2012,Atlas V 541
+Mars Orbiter Mission,"Mars Orbiter Mission
+(*Mangalyaan*)",11/5/2013,"ISRO
+ India",Orbiter,Successful,"Entered orbit on 24 September 2014. Mission extended to 2022, where the 
+mission concluded on September 27, 2022 after contact was lost.[20]",PSLV-XL
+MAVEN,MAVEN,11/18/2013,"NASA
+ United States",Orbiter,Operational,Orbit insertion on 22 September 2014[21],Atlas V 401
+ExoMars 2016,ExoMars Trace Gas Orbiter,3/14/2016,"ESA/Roscosmos
+ESA/ Russia",Orbiter,Operational,Entered orbit on 19 October 2016,Proton-M / Briz-M
+,Schiaparelli EDM lander,3/15/2016,ESA,Lander,Spacecraft failure,"Carried by the ExoMars Trace Gas Orbiter. Although the lander crashed,[22]
+[23] engineering data on the first five minutes of entry was successfully 
+retrieved.[24][25]",
+InSight,*InSight*,5/5/2018,"NASA
+ United States",Lander,Operational,Landed on 26 November 2018.,Atlas V 401
+InSight,MarCO A,5/6/2018,"NASA
+ United States",Flyby,Successful,Flyby 26 November 2018. Last contact 29 December 2018.,
+InSight,MarCO B,5/7/2018,"NASA
+ United States",Flyby,Successful,Flyby 26 November 2018. Last contact 4 January 2019.,
+Emirates Mars Mission,*Hope*,7/19/2020,"MBRSC
+ United Arab Emirates",Orbiter,Operational,Entered orbit on 9 February 2021.[29][30][31],H-IIA
+Tianwen-1,Tianwen-1 orbiter,7/23/2020,"CNSA
+ China",Orbiter,Operational,Entered orbit on 10 February 2021,Long March 5
+Tianwen-2,Tianwen-1 lander,7/24/2020,"CNSA
+ China",Lander,Successful,Landed on 14 May 2021,
+Tianwen-3,*Zhurong* rover,7/25/2020,"CNSA
+ China",Rover,Operational,Landed on 14 May 2021[34] Deployed by the Tianwen-1 lander on 22 May 2021.,
+Tianwen-4,Tianwen-1 Remote Camera,7/26/2020,"CNSA
+ China",Lander,Successful,Landed on 14 May 2021 Deployed by the Zhurong rover on 1 June 2021.[35],
+Tianwen-5,Tianwen-1 deployable camera 2,7/27/2020,"CNSA
+ China",Orbiter,Successful,"Entered orbit on 10 February 2021, deployed 31 December 2021",
+Mars 2020,*Perseverance*,7/30/2020,"NASA
+ United States",Rover,Operational,Landed on 18 February 2021[38],Atlas V 541
+Mars 2021,*Ingenuity*,7/31/2020,"NASA
+ United States",Helicopter,Operational,"*First aerodynamic flight on another planet.* Landed with *Perseverance* 
+rover on 18 February 2021.[39] Deployed from rover on 3 April 2021. First 
+flight achieved on April 19, 2021.[40]",

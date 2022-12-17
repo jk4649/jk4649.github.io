@@ -1,0 +1,155 @@
+Spacecraft,Date,Operator,Mission,Outcome,Remarks,Carrier_rocket
+"Tyazhely Sputnik
+(1VA No.1)",2/4/1961,"OKB-1
+ Soviet Union",Impactor,Launch failure,"Power transformer failure, upper stage failed to ignite, never left LEO",Molniya
+"Venera 1
+(1VA No.2)",2/12/1961,"OKB-1
+ Soviet Union",Impactor,Spacecraft failure,"Communications failure. First flyby past another planet, on 19 May 1961 
+at less than 100,000 kilometres (62,000 mi); no data returned",Molniya
+"Mariner 1
+(P-37)",7/22/1962,"NASA
+ United States",Flyby,Launch failure,Failed to orbit Earth; destroyed by range safety following guidance failure,Atlas-LV3 Agena-B
+2MV-1 No.1,8/25/1962,"OKB-1
+ Soviet Union",Lander,Launch failure,"Premature upper stage cutoff due to ullage motor malfunction; never left LEO
+",Molniya
+"Mariner 2
+(P-38)",8/27/1962,"NASA
+ United States",Flyby,Successful,First successful flyby past another planet on 14 December 1962,Atlas-LV3 Agena-B
+2MV-1 No.2,9/1/1962,"OKB-1
+ Soviet Union",Lander,Launch failure,"Upper stage fuel valve failed to open, resulting in failure to ignite; 
+never left LEÓ",Molniya
+2MV-2 No.1,9/12/1962,"OKB-1
+ Soviet Union",Flyby,Launch failure,"Anomalous third stage cutoff resulted in air bubbles forming in fourth 
+stage fuel; fourth stage shut down less than a second after ignition; 
+failed to leave LEO",Molniya
+3MV-1 No.2,2/19/1964,"OKB-1
+ Soviet Union",Flyby,Launch failure,"Third stage oxidizer leak caused propellant to freeze in feed lines, which 
+subsequently cracked; failed to orbit",Molniya-M
+"Kosmos 27
+(3MV-1 No.3)",3/27/1964,"OKB-1
+ Soviet Union",Flyby/Lander,Launch failure,"Upper stage attitude control failure, never left LEO",Molniya-M
+"Zond 1
+(3MV-1 No.4)",4/2/1964,"OKB-1
+ Soviet Union",Flyby/Lander,Spacecraft failure,"Electronics shorted out, communications lost before flyby. Flew past 
+Venus on 14 July 1964.",Molniya-M
+"Venera 2
+(3MV-4 No.4)",11/12/1965,"OKB-1
+ Soviet Union",Flyby,Spacecraft failure,"Flew past Venus on 27 February 1966, closest approach at 02:52 UTC. 
+Communications lost after flyby, before any data could be returned.",Molniya-M
+"Venera 3
+(3MV-3 No.1)",11/16/1965,"OKB-1
+ Soviet Union",Lander,Spacecraft failure,"Communications lost as soon as spacecraft entered atmosphere on 1 March 
+1966, no data returned. First atmospheric entry and impact on another 
+planet",Molniya-M
+"Kosmos 96
+(3MV-4 No.6)",11/23/1965,"OKB-1
+ Soviet Union",Flyby,Launch failure,"Third stage combustion chamber exploded, resulting in loss of control, 
+upper stage failed to ignite; Never left LEO",Molniya-M
+"Venera 4
+(4V-1 No.310)",6/12/1967,"Lavochkin
+ Soviet Union",Atmospheric,Successful,"Returned atmospheric data during entry on 18 October 1967. First 
+successful atmospheric entry. Never intended to work on surface",Molniya-M
+Mariner 5,6/14/1967,"NASA
+ United States",Flyby,Successful,"Flyby on 19 October 1967, closest approach at 17:34:56 UTC",Atlas SLV-3 Agena-D
+"Kosmos 167
+(4V-1 No.311)",6/17/1967,"Lavochkin
+ Soviet Union",Lander,Launch failure,Upper stage failed to ignite; turbopump cooling malfunction. Never left LEO,Molniya-M
+"Venera 5
+(4V-1 No.330)",1/5/1969,"Lavochkin
+ Soviet Union",Atmospheric,Successful,"Entered atmosphere on 16 May 1969, operated for 53 minutes",Molniya-M
+"Venera 6
+(4V-1 No.331)",1/10/1969,"Lavochkin
+ Soviet Union",Atmospheric,Successful,"Entered atmosphere on 17 May 1969, operated for 51 minutes",Molniya-M
+"Venera 7
+(4V-1 No.630)",8/17/1970,"Lavochkin
+ Soviet Union",Lander,Partial success,"Landed at 05:37:10 UTC on 15 December 1970, rolled upon landing and 
+returned severely limited data. *First soft landing on another planet.",Molniya-M
+"Kosmos 359
+(4V-1 No.631)",8/22/1970,"Lavochkin
+ Soviet Union",Lander,Launch failure,Never left LEO,Molniya-M
+"Venera 8
+(4V-1 No.670)",3/27/1972,"Lavochkin
+ Soviet Union",Lander,Successful,"Landed at 09:32 UTC on 22 July 1972. First fully successful landing on 
+another planet.",Molniya-M
+"Kosmos 482
+(4V-1 No.671)",3/31/1972,"Lavochkin
+ Soviet Union",Lander,Launch failure,Never left LEO,Molniya-M
+Mariner 10,11/3/1973,"NASA
+ United States",Flyby,Successful,"Flyby on 4 February 1974; closest approach at 17:01 UTC; observed Venus and 
+performed gravity assist to reach Mercury",Atlas SLV-3D Centaur-D1A
+"Venera 9
+(4V-1 No.660)",6/8/1975,"Lavochkin
+ Soviet Union",Orbiter/Lander,Successful,"Entered orbit on 20 October 1975; lander landed at 05:13 UTC on 22 October. First 
+orbiter of Venus and first images from the surface of another planet.",Proton-K/D
+"Venera 10
+(4V-1 No.661)",6/14/1975,"Lavochkin
+ Soviet Union",Orbiter/Lander,Successful,Entered orbit on 23 October 1975; lander landed at 05:17 UTC on 25 October,Proton-K/D
+"Venera 11
+(4V-1 No.360)",9/9/1978,"Lavochkin
+ Soviet Union",Flyby/Lander,Mostly successful,"Flyby on 25 December; Lander landed at 03:24 UTC the same day. Multiple 
+instrument failures on lander",Proton-K/D-1
+"Venera 12
+(4V-1 No.361)",9/14/1978,"Lavochkin
+ Soviet Union",Flyby/Lander,Mostly successful,"Lander landed at 03:20 UTC on 21 December 1978. Both cameras on lander 
+failed",Proton-K/D-1
+"Pioneer Venus 1
+(PV Orbiter)",5/20/1978,"NASA
+ United States",Orbiter,Successful,"Entered orbit on 4 December 1978, decayed on 22 October 1992",Atlas SLV-3D Centaur-D1AR
+"Pioneer Venus 2
+(PV Multiprobe)",8/8/1978,"NASA
+ United States",Atmospheric,Successful,"Entered the atmosphere on 9 December 1978; consisted of five spacecraft, 
+one of which briefly continued transmitting after reaching the surface",Atlas SLV-3D Centaur-D1AR
+"Venera 13
+(4V-1M No.760)",10/30/1981,"Lavochkin
+ Soviet Union",Flyby/Lander,Successful,"Lander landed at 03:20 UTC on 1 March 1982. First recording of sounds from 
+another planet.",Proton-K/D-1
+"Venera 14
+(4V-1M No.761)",11/4/1981,"Lavochkin
+ Soviet Union",Flyby/Lander,Successful,Lander landed on 5 March 1982.,Proton-K/D-1
+"Venera 15
+(4V-2 No.860)",6/2/1983,"Lavochkin
+ Soviet Union",Orbiter,Successful,"Entered orbit 10 October 1983, operated until July 1984",Proton-K/D-1
+"Venera 16
+(4V-2 No.861)",6/7/1983,"Lavochkin
+ Soviet Union",Orbiter,Successful,"Entered orbit 11 October 1983, operated until July 1984",Proton-K/D-1
+"Vega 1
+(5VK No.901)",12/15/1984,"Lavochkin
+ Soviet Union",Flyby/Atmospheric/Lander,Mostly successful,"Landed 11 June 1985. Atmospheric probe deployed during entry operated for 
+two days. Main bus continued to explore comet 1P/Halley",Proton-K/D-1
+"Vega 2
+(5VK No.902)",12/21/1984,"Lavochkin
+ Soviet Union",Flyby/Atmospheric/Lander,Successful,"Landed 15 June 1985. Atmospheric probe deployed during entry operated for 
+two days. Main bus continued to explore comet 1P/Halley",Proton-K/D-1
+Magellan,5/4/1989,"NASA
+ United States",Orbiter,Successful,"Entered orbit 10 October 1990, deorbited 13 October 1994","Space Shuttle Atlantis
+STS-30 / IUS"
+Galileo,10/18/1989,"NASA
+ United States",Gravity assist at Venus,Successful,"Flyby on 10 February 1990 en route to Jupiter; observed Venus during 
+closest pass.","Space Shuttle Atlantis
+STS-34 / IUS"
+Cassini,10/15/1997,"NASA
+ United States",Gravity assist,Successful,"Flybys on 26 April 1998 and 24 June 1999 en route to Saturn; observed Venus 
+during closest pass.",Titan IV(401)B
+MESSENGER,8/3/2004,"NASA
+ United States",Gravity assist,Successful,"Flybys on 24 October 2006 and 5 June 2007 en route to Mercury; observed 
+Venus during closest pass.",Delta II 7925H
+Venus Express,11/9/2005,ESA,Orbiter,Successful,Entered orbit 11 April 2006. Full communications lost on 28 November 2014 ,Soyuz-FG/Fregat
+Akatsuki,5/20/2010,"JAXA
+ Japan",Orbiter,Operational,"Flew past Venus on 6 December 2010 after failing to enter orbit. Insertion 
+was successfully reattempted on 7 December 2015.",H-IIA 202
+IKAROS,5/20/2010,"JAXA
+ Japan",Flyby,Successful,"Experimental solar sail released from the *Akatsuki* spacecraft. Flew past 
+Venus on 8 December 2010 but did not make observations.",H-IIA 202
+Shin'en,5/20/2010,"UNISEC
+ Japan",Flyby,Spacecraft failure,"Communications never established after launch. Flew past Venus in December 
+2010",H-IIA 202
+Parker Solar Probe,8/12/2018,"NASA
+ United States",Gravity assist,Operational,"Flybys on 10 October 2018, 26 December 2019, 11 July 2020, 20 February 
+2021, 16 October 2021, 21 August 2023, and 6 November 2024 to lower 
+perihelion for solar observation.",Delta IV Heavy/Star 48BV
+BepiColombo,10/20/2018,ESA,Gravity assist,Operational,"Flybys on 15 October 2020 and 11 August 2021 en route to Mercury; observed 
+Venus during closest pass.",Ariane 5 ECA
+Solar Orbiter,2/10/2020,ESA,Gravity assist,Operational,"Flybys on 27 Dec 2020, 8 Aug 2021, 3 Sep 2022, 18 Feb 2025, 24 Dec 2026, 17 
+Mar 2028, 10 Jun 2029, and 2 Sep 2030 to adjust orbital inclination.",Atlas V 411
+BepiColombo,10/20/2018,ESA,Gravity assist,Operational,N/A,Atlas V 411
+Solar Orbiter,2/10/2020,ESA,Gravity assist,Operational,N/A,Atlas V 411
