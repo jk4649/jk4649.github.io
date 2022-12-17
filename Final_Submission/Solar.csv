@@ -1,0 +1,33 @@
+Spacecraft,Organization,Date,Type,Status,Notes
+Pioneer 5,"NASA/
+ DOD",1960,orbiter,success,"measured magnetic field phenomena, solar flare particles, and ionization in the interplanetary region"
+Pioneer 6(A),NASA,1965,orbiter,success,"network of solar-orbiting ""space weather"" monitors, observing solar wind, cosmic rays, and magnetic fields"
+Pioneer 7(B),NASA,1966,orbiter,success,N/A
+Pioneer 8(C),NASA,1967,orbiter,success,N/A
+Pioneer 9(D),NASA,1968,orbiter,success,N/A
+Pioneer-E,NASA,1969,orbiter,failure,intended as part of the Pioneer 6–9 network; failed to reach orbit
+Helios A,"DFVLR/
+ NASA",1974,orbiter,success,"observations of solar wind, magnetic and electric fields, cosmic rays and cosmic dust between Earth and Sun"
+Helios B,"DFVLR/
+ NASA",1976,orbiter,success,N/A
+ISEE-3,NASA,1978,orbiter,success,observed solar phenomena in conjunction with earth-orbiting ISEE-1 and ISEE-2; later renamed International Cometary Explorer (ICE) and directed to Comet Giacobini-Zinner
+"Ulysses
+(first pass)","ESA/
+ NASA",1978,orbiter,success,south polar observations
+WIND,NASA,1994,orbiter,success,solar wind measurements
+SOHO,"ESA/
+ NASA",1996,orbiter,success,"investigation of Sun's core, corona, and solar wind; comet discoveries"
+ACE,NASA,1997,orbiter,success,solar wind observations
+"Ulysses
+(second pass)","ESA/
+ NASA",2000,orbiter,success,south polar observations
+Genesis,NASA,2001,"orbiter/
+sample return",success,"solar wind sample return; crash landed on return to Earth, much data salvaged"
+STEREO A,NASA,2006,orbiter,success,stereoscopic imaging of coronal mass ejections and other solar phenomena
+STEREO B,NASA,2006,orbiter,success,stereoscopic imaging of coronal mass ejections and other solar phenomena
+"Ulysses
+(third pass)","ESA/
+ NASA",2007,orbiter,success,south polar observations
+DSCOVR,NOAA,2015,orbiter,success,"solar wind and coronal mass ejection monitoring, as well as Earth climate monitoring"
+Parker Solar Probe,NASA,2018,orbiter/flyby,en route,close-range solar coronal study
+Solar Orbiter,ESA,2020,orbiter,en route,solar and heliospheric physics

@@ -1,0 +1,157 @@
+Mission,Operator,Date,Mission_Type,Outcome,Remarks
+Pioneer 0,DoD,8/17/1958,orbiter,failure,first attempted launch beyond Earth orbit; launch vehicle failure; maximum altitude 16 km
+Luna E-1 No.1,USSR,9/23/1958,impactor,failure,launch vehicle failure
+Pioneer 1,"NASA/
+ DoD",10/11/1958,orbiter,failure,"second stage premature shutdown; maximum altitude 113,800 km; some data returned"
+Luna E-1 No.2,USSR,10/12/1958,impactor,failure,launch vehicle failure
+Pioneer 2,"NASA/
+ STL",11/8/1958,orbiter,failure,"third stage failure; maximum altitude 1,550 km; some data returned"
+Luna E-1 No.3,USSR,12/4/1958,impactor,failure,launch vehicle failure
+Pioneer 3,"NASA/
+ DoD",12/6/1958,flyby,failure,"fuel depletion; maximum altitude 102,360 km; some data returned"
+Luna 1,USSR,1/4/1959,flyby,partial success,"first spacecraft in the vicinity of the Moon (flew within 5,995 km, but probably an intended impactor)"
+Pioneer 4,"NASA/
+ DoD",3/4/1959,flyby,partial success,achieved distant flyby; first US probe to enter solar orbit
+Luna E-1A No.1,USSR,6/18/1959,impactor,failure,failed to reach Earth orbit
+Luna 2,USSR,9/14/1959,impactor,success,first impact on Moon
+Pioneer P-1,NASA,9/24/1959,orbiter?,failure,designation sometimes given to a failed launch or launchpad explosion during testing; conflicting information between sources
+Luna 3,USSR,10/6/1959,flyby,success,first images from the lunar farside
+Pioneer P-3,NASA,11/26/1959,orbiter,failure,disintegrated shortly after launch
+Luna 1960A†,USSR,4/15/1960,flyby,failure,failed to attain correct trajectory
+Luna 1960B†,USSR,4/16/1960,flyby,failure,launch vehicle failure
+Pioneer P-30,NASA,9/25/1960,orbiter,failure,second stage failure; failed to reach Earth orbit
+Pioneer P-31,NASA,12/15/1960,orbiter,failure,first stage failure
+Ranger 3,NASA,1/28/1962,impactor,failure,missed target
+Ranger 4,NASA,4/26/1962,impactor,failure,hit the lunar farside; no data returned
+Ranger 5,NASA,10/21/1962,impactor,failure,"power failure, missed target"
+Sputnik 25,USSR,1/5/1963,lander,failure,failed to escape Earth orbit
+Luna E-6 No.3†,USSR,2/2/1963,lander,failure,failed to reach Earth orbit
+Luna 4,USSR,4/5/1963,lander,failure,"missed target, became Earth satellite"
+Ranger 6,NASA,2/2/1964,impactor,partial success,"impacted, but no pictures returned due to power failure"
+Luna 1964A†,USSR,3/21/1964,lander,failure,failed to reach Earth orbit
+Ranger 7,NASA,7/31/1964,impactor,success,returned pictures until impact
+Ranger 8,NASA,2/20/1965,impactor,success,returned pictures until impact
+Cosmos 60,USSR,3/12/1965,lander,failure,failed to leave Earth orbit
+Ranger 9,NASA,3/24/1965,impactor,success,TV broadcast of live pictures until impact
+Luna 1965A†,USSR,4/10/1965,lander?,failure,failed to reach Earth orbit?
+Luna 5,USSR,5/12/1965,lander,failure,crashed into Moon
+Luna 6,USSR,6/8/1965,lander,failure,missed Moon
+Zond 3,USSR,7/20/1965,flyby,success,"possibly originally intended as a Mars probe, but target changed after launch window missed"
+Luna 7,USSR,10/7/1965,lander,failure,crashed into Moon
+Luna 8,USSR,12/6/1965,lander,failure,crashed into Moon
+Luna 9,USSR,2/3/1966,lander,success,first soft landing; first images from the surface
+Cosmos 111,USSR,3/1/1966,orbiter,failure,failed to escape Earth orbit
+Luna 10,USSR,4/3/1966,orbiter,success,first artificial satellite of the Moon
+Luna 1966A,USSR,4/30/1966,orbiter,failure,failed to reach Earth orbit
+Surveyor 1,NASA,6/2/1966,lander,success,first US soft landing; Surveyor program performed various tests in support of forthcoming human landings
+Explorer 33,NASA,7/1/1966,orbiter,partial success,"studied interplanetary plasma, cosmic rays, magnetic fields and solar X rays; failed to attain lunar orbit as intended, but achieved mission objectives from Earth orbit"
+Lunar Orbiter 1,NASA,8/14/1966,orbiter,success,photographic mapping of lunar surface; intentionally impacted after completion of mission
+Luna 11,USSR,8/28/1966,orbiter,success,"gamma-ray and X-ray-based observations of Moon's composition; gravity, radiation and meteorite studies"
+Surveyor 2,NASA,9/23/1966,lander,failure,crashed into Moon
+Luna 12,USSR,10/25/1966,orbiter,success,lunar surface photography
+Lunar Orbiter 2,NASA,11/10/1966,orbiter,success,photographic mapping of lunar surface; intentionally impacted after completion of mission
+Luna 13,USSR,12/24/1966,lander,success,TV pictures of lunar landscape; soil measurements
+Lunar Orbiter 3,NASA,2/8/1967,orbiter,success,photographic mapping of lunar surface; intentionally impacted after completion of mission
+Surveyor 3,NASA,4/20/1967,lander,success,"various studies, primarily in support of forthcoming human landings. First lander visited by a later crewed mission (Apollo 12) that even brought its components back to Earth."
+Lunar Orbiter 4,NASA,5/1/1967,orbiter,success,lunar photographic survey
+Explorer 35,NASA,6/24/1973,orbiter,success,"studies of interplanetary plasma, magnetic fields, energetic particles and solar X rays"
+Surveyor 4,NASA,7/17/1967,lander,failure,crashed into Moon
+Lunar Orbiter 5,NASA,8/5/1967,orbiter,success,lunar photographic survey; intentionally impacted after completion of mission
+Surveyor 5,NASA,9/11/1967,lander,success,"various studies, primarily in support of forthcoming human landings"
+Zond 1967A†,USSR,9/28/1967,N/A,failure,lunar capsule test flight; launch failure
+Surveyor 6,NASA,11/10/1967,lander,success,"various studies, primarily in support of forthcoming human landings"
+Zond 1967B†,USSR,11/22/1967,N/A,failure,lunar capsule test flight; launch failure
+Surveyor 7,NASA,1/10/1968,lander,success,"various studies, primarily in support of forthcoming human landings; fifth and final Surveyor mission to achieve soft landing"
+Luna 1968A†,USSR,2/7/1968,orbiter,failure,failed to reach Earth orbit
+Zond 4,USSR,3/2/1968,N/A,N/A,"lunar programme flight test, directed away from Moon, either intentionally or unintentionally"
+Luna 14,USSR,4/10/1968,orbiter,success,tests of radio communications technologies; lunar mascon studies
+Zond 1968A†,USSR,4/23/1968,flyby,failure,launch failure
+Zond 5,USSR,9/18/1968,flyby,success,bioscience experiments; returned to soft landing on Earth
+Zond 6,USSR,11/14/1968,flyby,success,"cosmic-ray, micrometeoroid and bioscience studies; returned to soft landing on Earth"
+Zond 1969A†,USSR,1/20/1969,flyby,failure,launch aborted
+Luna 1969A†,USSR,2/19/1969,lander,failure,launch vehicle failure
+Zond L1S-1†,USSR,2/21/1969,orbiter,failure,launch vehicle failure
+Luna 1969B†,USSR,4/15/1969,sample return,failure,launch failure
+Luna 1969C†,USSR,6/14/1969,sample return,failure,launch failure
+Zond L1S-2†,USSR,7/3/1969,orbiter,failure,launch failure
+Luna 15,USSR,7/21/1969,sample return,failure?,completed 52 lunar orbits then crash-landed
+Zond 7,USSR,8/11/1969,flyby,success,returned to soft landing on Earth
+Cosmos 300,USSR,9/23/1969,sample return,failure,failed to escape Earth orbit
+Cosmos 305,USSR,10/22/1969,sample return,failure,failed to escape Earth orbit
+Luna 1970A†,USSR,2/6/1970,sample return,failure,launch vehicle failure
+Luna 1970B†,USSR,2/19/1970,orbiter,failure,launch vehicle failure
+Luna 16,USSR,9/20/1970,sample return,success,first robotic sample return
+Zond 8,USSR,10/24/1970,flyby,success,returned to soft landing on Earth
+Luna 17,USSR,11/17/1970,lander,success,deployed rover
+Luna 18,USSR,9/11/1971,lander/sample return,failure,crashed into Moon
+Luna 19,USSR,10/3/1971,orbiter,success,N/A
+Luna 20,USSR,2/21/1972,sample return,success,second successful robotic sample return
+Soyuz L3†,USSR,11/23/1972,orbiter,failure,launch failure
+Luna 21,USSR,1/15/1973,lander,success,deployed rover
+Explorer 49,NASA,6/15/1973,orbiter,success,radio astronomy observations; last US lunar mission until 1994
+Mariner 10,NASA,11/1/1973,flyby,success,en route to Venus and Mercury
+Luna 22,USSR,6/2/1974,orbiter,success,N/A
+Luna 23,USSR,11/6/1974,sample return,failure,"damaged on landing, sample return failed"
+Luna 1975A†,USSR,10/16/1975,sample return,failure,failed to reach Earth orbit
+Luna 24,USSR,8/18/1976,sample return,success,third and final successful sample return in Luna programme
+ICE (formerly ISEE-3),NASA,12/22/1983,flyby,success,gravity assist en route to comet flybys
+Hiten,ISAS,3/1/1990,flyby (approached 10 times),success,"in Moon-crossing Earth orbit from January 1990, later transferred to lunar orbit after failure of Hagoromo; intentionally impacted on Moon at end of mission; first Japanese probe (and non-USSR/US probe) to enter lunar orbit"
+Hiten,ISAS,3/1/1990,orbiter,failure,"released by Hiten into lunar orbit, but transmitter failed and orbit never confirmed"
+GEOTAIL,ISAS / NASA,9/1/1992,flyby (approached 14 times),success,gravity assist en route magnetotail around L2 / finally deployed into high Earth orbit
+WIND,NASA,12/1/2022,flyby,success,gravity assists en route to Earth–Sun L1 Lagrangian point
+Clementine,"BMDO/
+ NASA",2/1/1994,orbiter,partial success,lunar and Earth observations and component testing; planned Geographos flyby failed
+HGS-1,Hughes Global Services,5/1/1998,Flyby (orbital correction),,"errant communications satellite, flew within 6,200 kilometers of Moon during orbit correction manoeuvres"
+Lunar Prospector,NASA,1/1/1998,orbiter,success,lunar surface mapping; intentionally impacted into polar crater at end of mission to test for liberation of water vapour (not detected)
+Nozomi,ISAS,9/24/1998,flyby,success,gravity assists on planned mission to Mars
+Nozomi,ISAS,12/18/1998,flyby,success,
+WMAP,NASA,7/30/2001,flyby,success,gravity assist en route to Earth–Sun L2 Lagrangian point
+SMART-1,ESA,11/13/2004,orbiter,success,technology testbed and lunar geological studies; intentionally impacted at end of mission; first European probe to orbit the Moon
+STEREO A,NASA,12/15/2006,flyby,success,gravity assist to enter a heliocentric orbit
+STEREO B,NASA,12/15/2006,flyby,success,gravity assists to enter a heliocentric orbit
+"SELENE
+(Kaguya)",JAXA,10/3/2007,orbiter,success,"mineralogical, geographical, magnetic and gravitational observations"
+"SELENE
+(Kaguya)",JAXA,10/9/2007,Kaguya subsatellite,success,relay for Kaguya's Far Side operations
+"SELENE
+(Kaguya)",JAXA,10/12/2007,Kaguya subsatellite,success (still in orbit),Very Long Baseline Interferometry
+Chang'e 1,CNSA,11/5/2007,orbiter,success,3D lunar mapping and geological observations; first Chinese probe to orbit a body besides Earth; impacted to collect data in preparation for future soft landings
+Chandrayaan-1,ISRO,11/8/2008,orbiter,success,"high resolution 3D mapping, search water in polar region (first detection of water) and spectral analysis of the Moon's surface and inner compositions[1]"
+Chandrayaan-1,ISRO,11/14/2008,impactor,success,"test and demonstrate targeting technologies for future soft landings, scientific observation from close range"
+Lunar Reconnaissance Orbiter,NASA,6/23/2009,orbiter,in orbit,survey of lunar resources and identification of possible landing sites
+LCROSS,NASA,6/23/2009,flyby,success,consisted of the Shepherding Spacecraft and Centaur upper stage (Earth Departure Upper Stage)
+LCROSS,NASA,10/9/2009,impactor,success,analyzed upper-stage impact plume for traces of water liberated from the Moon's surface
+LCROSS,NASA,10/9/2009,impactor,success,N/A
+Chang'e 2,CNSA,10/1/2010,orbiter,success,"capture high resolution images of the landing zone for Chang'e 3, measure and analyze composition of the surface. Then sent to L2 and on to an asteroid flyby."
+ARTEMIS P1,NASA,7/2/2011,orbiter,in orbit,to study the effect of the solar wind on the lunar surface
+ARTEMIS P2,NASA,7/17/2011,orbiter,in orbit,to study the effect of the solar wind on the lunar surface
+"GRAIL A
+(Ebb)",NASA,12/31/2022,orbiter,success,mapped the Moon's gravitational field; intentionally impacted at end of mission
+"GRAIL B
+(Flow)",NASA,1/1/2012,orbiter,success,mapped the Moon's gravitational field; intentionally impacted at end of mission
+LADEE,NASA,9/6/2013,orbiter,success,designed to study the lunar exosphere and dust. Intentionally impacted on far side of Moon.
+Chang'e 3,CNSA,12/1/2013,lander,in progress,soft-landed on the Moon and deployed Yutu rover on 14 December 2013; one functioning instrument as of 1 September 2020 [36]
+Chang'e 3,CNSA,12/1/2013,rover,success,"survived multiple lunar nights, became immobile 42 days after landing"
+Chang'e 5-T1,CNSA,10/28/2014,flyby,success,"Technology demonstrator for Chang'e 5 mission; after separating the Xiaofei reentry capsule, the service module eventually entered lunar orbit to conduct rendezvous exercises"
+Chang'e 5-T1,CNSA,1/10/2015,orbiter,in progress,N/A
+Chang'e 5-T1,Luxspace,10/1/2014,flyby,success,privately funded payload attached to a Long March 3C rocket third stage; its dosimeter measured ionizing radiation in space.
+TESS,NASA,5/17/2018,flyby,success,gravity assist to achieve a lunar resonant high Earth orbit
+Queqiao,CNSA,5/25/2018,flyby,success,Used a gravity assist en route to the Earth–Moon L2 Lagrangian point. Currently serving as relay for Chang'e 4 lander and rover on the far side.
+Longjiang-1,HIT,5/25/2018,orbiter,failure,"malfunctioned after launch, became flyby"
+Longjiang-2,HIT,5/25/2018,orbiter,success,"Very Long Baseline Interferometry, in orbit until 31 July 2019 when it was deliberately directed to crash onto the Moon."
+Chang'e 4,CNSA,12/7/2018,lander,in progress,First spacecraft to soft land on the far side of the Moon.
+Chang'e 4,CNSA,12/7/2018,rover,active,N/A
+Beresheet,SpaceIL,2/22/2019,lander,failure,"First Israeli and privately funded lunar lander. Entered lunar orbit on 4 April, hard-landed on 11 April 2019."
+Chandrayaan-2,ISRO,7/22/2019,orbiter,in orbit,"observe lunar geography and mineralogy, search for water molecules"
+Chandrayaan-2,ISRO,9/6/2019,lander,failure,crashed due to a software glitch[2]
+Chandrayaan-2,ISRO,9/7/2019,rover,not deployed,was to be deployed from Vikram
+Chang'e 5,CNSA,12/16/2020,sample return,success,Retrieved 1.731 kg of lunar sample and returned it to Earth
+Chang'e 5,CNSA,11/30/2020,sample return,success,Obtained lunar sample and placed on ascent vehicle; conducted radar studies of underground structure
+Chang'e 5,CNSA,12/3/2020,sample return,success,Transferred lunar sample onto return capsule via lunar-orbit rendezvous; intentionally deorbited
+Chang'e 5,CNSA,9/9/2021,flyby,success,Extended mission following separation of Chang'e 5 Returner; returned from Sun-Earth L1[4] to conduct lunar flyby[5]
+Chang'e 5,CNSA,7/13/2022,orbiter,in orbit,First spacecraft to utilize Distant Retrograde Orbit (DRO) about Earth-Moon L1 and L2
+CAPSTONE,NASA,11/13/2022,"Orbiter, technology demonstrator",en route,Lunar orbiting CubeSat that will test and verify the calculated orbital stability planned for the Gateway space station.
+CAPSTONE,Rocket Lab,7/1/2022,flyby,en route,Upper stage of Rocket Lab Electron rocket for interplanetary missions. It is on a trajectory to perform a lunar flyby and perform some other observations. This is entirely dependent on how much propellant it has left.
+"Danuri
+(Korea Pathfinder Lunar Orbiter)","KARI/
+ NASA",12/16/2022,"Orbiter, technology demonstrator.",en route,"Lunar Orbiter by the Korea Aerospace Research Institute (KARI) of South Korea. The orbiter, its science payload and ground control infrastructure are technology demonstrators. The orbiter will also be tasked with surveying lunar resources such as water ice, uranium, helium-3, silicon, and aluminium, and produce a topographic map to help select future lunar landing sites."
