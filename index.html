@@ -7,7 +7,8 @@
 
 <!-- Load d3.js -->
 <script type="text/javascript" src="d3.js"></script>
-        
+
+
 
 
 <style type="text/css">
@@ -21,15 +22,18 @@ html {
   scroll-behavior: smooth;
 }
         body {
-            background-image: url("Final_Project/PlanetsPng/background_copy.jpg");
+            background-image: url("Final_Project/PlanetsPng/junk.jpg");
             background-repeat: no-repeat;
             background-size: 100%; 
             background-color: black;
             color: white;
             position: relative;
-            text-align: center;
+            text-align:center;
             margin: 20%;
             align-content: center;
+            font-family:'Arial';
+            font-size: small;
+            
         }
 
         .column {
@@ -43,7 +47,7 @@ html {
         .header {
 
             font-family: 'Cormorant Garamond';
-            margin-top: 20%;
+            margin-top:10%;
 
         }
 
@@ -59,8 +63,9 @@ html {
 
         .spacejunk {
             font-size: 2ex;
-            margin-top: 42%;
+            margin-top: 10%;
             margin-bottom:5%;
+            text-align: justify;
         }
 
         #nav {
@@ -94,6 +99,14 @@ html {
             color:white;
         }
 
+    .container {
+        display: grid;
+        grid-template-rows: repeat(1, 350px);
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        justify-content: center;
+        align-content: center;
+    }
+    
         #content {
             margin-top:300px;
             margin-left:5%;
@@ -103,40 +116,38 @@ html {
         }
     
     
-    #objects {
 
-        float:left;
-        width:50%;
-    }
     
     #objects-explanation {
 
-        margin-top:40px;
-        width:45%;
-        float:left;
-        margin-left:5%;
-        text-align:left;
+        margin-left:20px;
+        width:100%;
+text-align: left;
+        align-self:center;
 
     }
     
  
     
     #objects-explanation p1 {
+        flex-wrap: wrap;
         font-size: 25px;
         font-weight: 200;
+        text-align:left;
+        
         
     }
     
     #status {
         float:none;
-        margin-top:500px;
+        margin-top:100px;
 
     }
    
     #status-explanation {
       align-content:center;
         margin:auto;
-        margin-top:10px;
+        margin-top:10%;
 
     }
     
@@ -146,7 +157,7 @@ html {
         color:#D34418;
         font-size:40px;
         text-align:end;
-        margin-top:10px;
+        margin-top:10%;
         
     }
     
@@ -241,7 +252,7 @@ html {
 	<body>	
         
         <div class="header">
-            <h1>SPACE ANTHROPOCENE 2.0</h1>
+            <h1>SPACE ANTHROPOCENE</h1>
             <h2>Historical and Cultural Survey of the Human Activities in Earth's Orbit and Beyond Through the Lens of Data Visualization</h2>
         </div>
         
@@ -278,11 +289,10 @@ html {
         </div>
         
         
-    <div id="objects"></div>
-        
-    <div id="objects-explanation">
-        <p1> Number of Space Objects Launched Per Decade </p1><br><br> An official Register of Objects Launched into Outer Space has been kept up to date by the UN since 1962. As international space law developed, space object registration transformed from being a mechanism to assisting the United Nations Committee on the Peaceful Uses of Outer Space in its discussions on the political, legal, and technical issues relating to outer space. Now, it serves to identify which States have international responsibility and liability for space objects. 8,261 distinct satellites are circling the Earth, up 11.84% from April 2021, according to UNOOSA's Index of Objects Launched into Outer Space. There were 12, 293 objects launched into space at the end of January 2022. It has been estimated that an additional 58,000 will be launched by 2030.<br> Data Source: https://www.unoosa.org/oosa/osoindex/search-ng.jspx
- </div>
+    <div class="container">
+        <div id="hiobjects"></div>
+        <div id="objects-explanation"> <p1> Number of Space Objects Launched Per Decade </p1><br><br> An official Register of Objects Launched into Outer Space has been kept up to date by the UN since 1962. As international space law developed, space object registration transformed from being a mechanism to assisting the United Nations Committee on the Peaceful Uses of Outer Space in its discussions on the political, legal, and technical issues relating to outer space. Now, it serves to identify which States have international responsibility and liability for space objects. 8,261 distinct satellites are circling the Earth, up 11.84% from April 2021, according to UNOOSA's Index of Objects Launched into Outer Space. There were 12, 293 objects launched into space at the end of January 2022. It has been estimated that an additional 58,000 will be launched by 2030.<br> Data Source: https://www.unoosa.org/oosa/osoindex/search-ng.jspx</div>
+        </div>
         
     <div id="status"></div>
     <div id="status-explanation">
@@ -316,6 +326,7 @@ There are numerous uses for the satellites that orbit the Earth. Including items
 
 <script>
 
+
 const margin = {top: 100, right: 30, bottom: 30, left: 60},
         width = 1000 - margin.left - margin.right,
         height = 600 - margin.top - margin.bottom;
@@ -337,14 +348,11 @@ const margin = {top: 100, right: 30, bottom: 30, left: 60},
     ObjectsLaunched()
     function ObjectsLaunched() {
        
-        
-        
-             
-        var w = 550;
-        var h = 380;
+        var w = 600;
+        var h = 400;
         var padding = 60;
         
-        var svg3 = d3.select("#objects")
+        var svg3 = d3.select("#hiobjects")
 						.append("svg")
 						.attr("width", w)
 						.attr("height", h);
