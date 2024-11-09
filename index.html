@@ -55,7 +55,11 @@ html {
         .column img:hover {
             width:80%;
         }
-
+@keyframes smooth-appear {
+  	    to{
+    	    bottom:30px;
+  	    }
+	}
         .header {
             color: white;
             margin-top:18%;
@@ -65,14 +69,12 @@ html {
       	    font-family: 'Cormorant';
             background-color: rgba(150,150,150,0.4);
             text-align:center;
+		transform: translateX(-1%);
+  			animation: smooth-appear 1s ease forwards;
 		
         }
 
-	@keyframes smooth-appear {
-  	    to{
-    	    bottom:30px;
-  	    }
-	}
+	
 	
         h1 {                
             font-size: 10ex;
@@ -83,8 +85,7 @@ html {
             letter-spacing: .3em;
             font-weight:400;
             align-content:center;
-			transform: translateX(-1%);
-  			animation: smooth-appear 1s ease forwards;
+			
             
         }
     
