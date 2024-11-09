@@ -55,10 +55,22 @@ html {
         .column img:hover {
             width:80%;
         }
-@keyframes smooth-appear {
-    	   to {
-    transform: translateY(1%);
+@keyframes smooth-down-header {
+    	   from {
+    transform: translateY(-1%);
   	    }
+	}
+
+	@keyframes smooth-down-h1 {
+    	   from {
+    transform: translateY(-1.5%);
+  	    }
+	}
+
+	@keyframes smooth-up-h2 {
+		from {
+		transform: translateY(2%);
+		}
 	}
         .header {
             color: white;
